@@ -1,0 +1,43 @@
+# Do not touch this parameter !
+config-version: 1
+
+
+# Weather API key
+# You can get one here: https://www.weatherapi.com/
+weather-api-key: ""
+
+city: "Paris"
+
+day-night:
+  enabled: true
+
+weather-conditions:
+    enabled: true
+    # Weather conditions in Minecraft
+    # You can find all weather conditions here: https://www.weatherapi.com/docs/weather_conditions.json
+    # If you want to disable a weather condition, just remove it from the list
+    # If the condition is not found, it will be replaced by "Clear" inGame
+    # If the condition contain "thunder" in the name, it will be replaced by "Thunder" inGame
+    rain:
+      - "Light rain"
+      - "Moderate rain"
+      - "Heavy rain"
+      - "Light freezing rain"
+      - "Moderate or heavy freezing rain"
+      - "Light rain shower"
+      - "Moderate or heavy rain shower"
+      - "Torrential rain shower"
+      - "Moderate or heavy rain with thunder"
+    snow:
+      - "BlowingSnow"
+      - "Blizzard"
+      - "Freezing drizzle"
+      - "Heavy freezing drizzle"
+      - "Light snow"
+      - "Moderate snow"
+      - "Heavy snow"
+      - "Ice pellets"
+      - "Moderate or heavy sleet showers"
+      - "Moderate or heavy snow showers"
+      - "Moderate or heavy showers of ice pellets"
+      - "Moderate or heavy snow with thunder"

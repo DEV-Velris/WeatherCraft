@@ -1,0 +1,6 @@
+name: WeatherCraft
+version: '${project.version}'
+main: fr.velris.weathercraft.WeatherCraft
+api-version: 1.13
+authors: [Velris]
+description: The WeatherCraft plugin allows for dynamic and realistic weather conditions in Minecraft. Players can experience a variety of weather patterns, from sunny skies to thunderstorms.
